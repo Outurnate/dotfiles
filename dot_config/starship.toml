@@ -1,0 +1,37 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+add_newline = true
+
+format = """
+$username\
+$hostname\
+$shlvl\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$package\
+$c\
+$cmake\
+$dotnet\
+$python\
+$rust\
+$typst\
+$cmd_duration\
+$jobs\
+$time\
+$status\
+$line_break\
+$shell\
+$character"""
+
+[time]
+disabled = false
+time_format = "%R"
+
+[status]
+disabled = false
+
+[shell]
+disabled = false
