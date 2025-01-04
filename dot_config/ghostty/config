@@ -1,0 +1,7 @@
+font-family = Fira Code
+background-opacity = 0.9
+scrollback-limit = 10000
+theme = dark:ENCOM,light:Terminal Basic
+cursor-style = block
+cursor-style-blink = true
+shell-integration-features = no-cursor
